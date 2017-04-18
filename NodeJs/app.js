@@ -35,7 +35,8 @@
 var http = require('http');
 var cheerio = require('cheerio');
 var config = require('./spider_config').config;
-var url = "http://www.imooc.com/learn/348";
+
+var url = config.url;
 
 function filterChapters(chapters) {
     var $ = cheerio.load(chapters);
@@ -47,7 +48,9 @@ function filterChapters(chapters) {
     chapter.each(function (_this) {
         _this = $(this);
         var course = [];
-        course.Title = _this.find(config.TitleFlag).text();
+        var info = _this.find(config.TitleFlag).children(config.infoClass).text();
+        _this.find(config.TitleFlag).children(config.infoClass).remove();
+        course.Title = _this.find(config.TitleFlag).text() + '"' + replace(info) + '"';
         course.Contents = [];
         _this.find(config.videoClass).children(config.flagName).each(function (video) {
             video = $(this);
@@ -78,6 +81,8 @@ function printSpiderData(courseData) {
 function replace(obj) {
     //删除内容中的所有空格
     return obj.replace(/\s/gi, '');
+    //obj = obj.replace(/\s*$/g, '');
+    //return obj.replace(/^\s*/g, '');
 }
 
 
