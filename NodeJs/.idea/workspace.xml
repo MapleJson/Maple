@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b134323b-d050-4766-9c3b-dfee1accc07c" name="Default" comment="GPI电子 未知的游戏">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/redBag/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/redBag/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/redBag/.idea/redBag.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/redBag/.idea/workspace.xml" afterPath="" />
+    <list default="true" id="b134323b-d050-4766-9c3b-dfee1accc07c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/boolbase/package.json" afterPath="$PROJECT_DIR$/node_modules/boolbase/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/buffer-shims/package.json" afterPath="$PROJECT_DIR$/node_modules/buffer-shims/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cheerio/package.json" afterPath="$PROJECT_DIR$/node_modules/cheerio/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/css-select/package.json" afterPath="$PROJECT_DIR$/node_modules/css-select/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/css-what/package.json" afterPath="$PROJECT_DIR$/node_modules/css-what/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dom-serializer/node_modules/domelementtype/package.json" afterPath="$PROJECT_DIR$/node_modules/dom-serializer/node_modules/domelementtype/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dom-serializer/package.json" afterPath="$PROJECT_DIR$/node_modules/dom-serializer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/domelementtype/package.json" afterPath="$PROJECT_DIR$/node_modules/domelementtype/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/domhandler/package.json" afterPath="$PROJECT_DIR$/node_modules/domhandler/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/domutils/package.json" afterPath="$PROJECT_DIR$/node_modules/domutils/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/entities/package.json" afterPath="$PROJECT_DIR$/node_modules/entities/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/htmlparser2/package.json" afterPath="$PROJECT_DIR$/node_modules/htmlparser2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/inherits/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.assignin/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.assignin/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.bind/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.bind/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.defaults/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.defaults/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.filter/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.filter/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.flatten/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.flatten/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.foreach/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.foreach/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.map/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.merge/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.merge/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.pick/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.pick/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.reduce/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.reduce/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.reject/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.reject/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.some/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.some/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nth-check/package.json" afterPath="$PROJECT_DIR$/node_modules/nth-check/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,8 +61,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            <state relative-caret-position="146">
+              <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -218,6 +246,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.10.0" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -406,14 +435,7 @@
       <workItem from="1492343730188" duration="34000" />
       <workItem from="1492343802066" duration="3824000" />
       <workItem from="1492361453529" duration="8794000" />
-      <workItem from="1492499558957" duration="225000" />
-    </task>
-    <task id="LOCAL-00128" summary="视讯项目">
-      <created>1490255677030</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1490255677030</updated>
+      <workItem from="1492499558957" duration="686000" />
     </task>
     <task id="LOCAL-00129" summary="视讯项目">
       <created>1490331356030</created>
@@ -751,11 +773,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491212259028</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="node">
+      <created>1492499820017</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1492499820018</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="565341000" />
+    <option name="totallyTimeSpent" value="565802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -767,7 +796,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="22" width="1399" height="878" extended-state="6" />
+    <frame x="41" y="22" width="1399" height="878" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18791452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951653" sideWeight="0.4974208" order="6" side_tool="false" content_ui="tabs" />
@@ -796,7 +825,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="同步查询" />
     <MESSAGE value="修复注册优惠设定无效问题" />
     <MESSAGE value="新增wap端ab gg" />
     <MESSAGE value="出款密码问题" />
@@ -821,7 +849,8 @@
     <MESSAGE value="演示站" />
     <MESSAGE value="....." />
     <MESSAGE value="GPI电子 未知的游戏" />
-    <option name="LAST_COMMIT_MESSAGE" value="GPI电子 未知的游戏" />
+    <MESSAGE value="node" />
+    <option name="LAST_COMMIT_MESSAGE" value="node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -987,8 +1016,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="146">
+          <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
           <folding />
         </state>
       </provider>
