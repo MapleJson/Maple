@@ -50,56 +50,45 @@ function filterChapters(chapters) {
 
 function spiderWriteFile(html,fileName) {
 
-    fs.exists(_path,function (exists) {
-        if (!exists)
-            fs.mkdirSync(_path);
+    var exists = fs.existsSync(_path);
+    if (!exists)
+        fs.mkdirSync(_path);
 
-        var _filePath = _path + fileName +'.html';
-        fs.writeFile(_filePath, html, function(err) {
-            if(err) {
-                return console.log(err);
-            }
+    var _filePath = _path + fileName +'.html';
+    fs.writeFileSync(_filePath, html, 'utf8');
 
-            console.log("The file " + fileName + ".html was saved!");
-        });
-    });
+    console.log("Write File " + fileName + ".html Successful !");
 
 }
 
 
 function printSpiderData(courseData) {
 
-    fs.exists(_path,function (exists) {
-        if (!exists)
-            fs.mkdirSync(_path);
+    var exists = fs.existsSync(_path);
+    if (!exists)
+        fs.mkdirSync(_path);
 
-        var _filePath = _path + 'tableOfContents.md';
-        var string = '';
-        courseData.forEach(function (course) {
+    var _filePath = _path + 'tableOfContents.md';
+    var string = '';
+    courseData.forEach(function (course) {
 
-            string += "# " + course.classTitle + "\n";
+        string += "# " + course.classTitle + "\n";
 
-            course.videos.forEach(function (item) {
+        course.videos.forEach(function (item) {
 
-                string += '### ' + item.Title + "\n";
+            string += '### ' + item.Title + "\n";
 
-                item.Contents.forEach(function (video) {
-                    string += '#### [' + video.title + "](" + config.SiteUrl + video.id + ") " + "\n";
-                });
-
+            item.Contents.forEach(function (video) {
+                string += '#### [' + video.title + "](" + config.SiteUrl + video.id + ") " + "\n";
             });
 
         });
 
-        fs.writeFile(_filePath, string, function(err) {
-            if(err) {
-                return console.log(err);
-            }
-
-            console.log("Write The Table Of Contents Success!");
-        });
-
     });
+
+    fs.writeFileSync(_filePath, string, 'utf8');
+
+    console.log("Write File tableOfContents.md Successful !");
 }
 
 function getPageAsync(Url) {
@@ -122,29 +111,32 @@ function getPageAsync(Url) {
     })
 }
 
-var fetchCourseArray = [];
+exports.start = function () {
 
-videoIds.forEach(function (id) {
-    fetchCourseArray.push(getPageAsync(url + id));
-});
+    var fetchCourseArray = [];
 
-Promise
-    .all(fetchCourseArray)
-    .then(function (pages) {
-        var coursesData = [];
-
-        pages.forEach(function (html) {
-            var fileName = videoIds[index];
-            index += 1;
-
-            var courses = filterChapters(html);
-
-            spiderWriteFile(html,fileName);
-
-            coursesData.push(courses);
-        });
-
-        printSpiderData(coursesData);
+    videoIds.forEach(function (id) {
+        fetchCourseArray.push(getPageAsync(url + id));
     });
+
+    Promise
+        .all(fetchCourseArray)
+        .then(function (pages) {
+            var coursesData = [];
+
+            pages.forEach(function (html) {
+                var fileName = videoIds[index];
+                index += 1;
+
+                var courses = filterChapters(html);
+
+                spiderWriteFile(html,fileName);
+
+                coursesData.push(courses);
+            });
+
+            printSpiderData(coursesData);
+        });
+}
 
 

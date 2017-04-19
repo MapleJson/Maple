@@ -4,6 +4,8 @@
     "Promise": "^1.0.5",
     "async": "^2.3.0",
     "bluebird": "^3.5.0",
+    "node-tesseract": "^0.2.7",
+    "gm": "^0.1.3",
     "cheerio": "^0.22.0",
     "eventproxy": "^0.3.5",
     "superagent": "^3.5.2"
